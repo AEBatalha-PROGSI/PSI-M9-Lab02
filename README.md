@@ -1,13 +1,11 @@
 # ValidadorDecisaoWPF
 
-# ValidadorDecisaoWPF
-
 Neste laboratório, vamos construir uma janela WPF que avalia o desempenho de um aluno e aplica descontos na propina com base na categoria selecionada (refatoriação de um exercício feito anteriormente em C).
 
-!(Lab02.1.png)
+![Demonstração do Validador de Decisão](Lab02.1.png)
 
+## Exercício 1: Classificador de escalão etário
 No mesmo projeto, criar uma nova janela WPF onde o utilizador introduz a sua idade num TextBox. Utilizar a estrutura if / else if / else para determinar o escalão:
-
 • Menor de 12 anos: Escalão Infantil
 • Entre 12 e 17 anos: Escalão Juvenil
 • Entre 18 e 64 anos: Escalão Adulto
@@ -15,4 +13,13 @@ No mesmo projeto, criar uma nova janela WPF onde o utilizador introduz a sua ida
 
 Exibir a mensagem correspondente num TextBlock com aviso se a idade for inválida (<= 0).
 
-![Exemplo do Escalão de Idades](imagens/janela2.png)
+![Exemplo do Escalão de Idades](Lab02.2.png)
+
+
+# Exercício 2: Calculadora aritmética com seleção por Switch
+Criar uma nova janela com dois TextBox para números e uma ComboBox com as opções (+, -, *, /).
+Ao clicar num botão 'Calcular', utilizar a instrução switch para executar a operação selecionada. Lembrar de validar a divisão por zero (ex.: se o segundo número for 0 na divisão, exibir uma mensagem de erro preventiva).
+
+![Exemplo da Calculadora](Lab02.3.png)
+
+
