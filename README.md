@@ -2,6 +2,7 @@
 
 Neste laboratório, vamos construir uma janela WPF que avalia o desempenho de um aluno e aplica descontos na propina com base na categoria selecionada (refatoriação de um exercício feito anteriormente em C).
 
+![Demonstração do Validador de Decisão](Lab02.0.png)
 
 
 ## Exercício 1: Classificador de escalão etário
@@ -12,7 +13,7 @@ No mesmo projeto, criar uma nova janela WPF onde o utilizador introduz a sua ida
 • 65 ou mais anos: Escalão Sénior
 Exibir a mensagem correspondente num TextBlock com aviso se a idade for inválida (<= 0).
 
-![Demonstração do Validador de Decisão](Lab02.1.png)
+![Exemplo do Escalão de Idades](Lab02.1.png)
 
 
 
@@ -20,7 +21,7 @@ Exibir a mensagem correspondente num TextBlock com aviso se a idade for inválid
 Criar uma nova janela com dois TextBox para números e uma ComboBox com as opções (+, -, *, /).
 Ao clicar num botão 'Calcular', utilizar a instrução switch para executar a operação selecionada. Lembrar de validar a divisão por zero (ex.: se o segundo número for 0 na divisão, exibir uma mensagem de erro preventiva).
 
-![Exemplo do Escalão de Idades](Lab02.2.png)
+![Exemplo da Calculadora](Lab02.2.png)
 
 
 ## Exercício 3 (Desafio de Extensão): Simulador de Preço de Bilhete de Cinema
@@ -31,6 +32,6 @@ Criar um formulário para venda de bilhetes de cinema com base no dia da semana 
 Combinar estruturas if e switch para calcular o preço final do bilhete e exibir o resumo detalhado.
 
 
-![Exemplo da Calculadora](Lab02.3.png)
+![Exemplo do Simulador de Preço de Bilhete de Cinema](Lab02.3.png)
 
 
