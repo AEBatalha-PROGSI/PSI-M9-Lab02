@@ -1,0 +1,23 @@
+﻿<Window x:Class="ValidadorDecisaoWPF.EscalaoEtarioWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValidadorDecisaoWPF"
+        mc:Ignorable="d"
+        Title="Exercício 1: Classificador de Escalão Etário" Height="300" Width="400">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Classificador de Escalão Etário" FontSize="18" FontWeight="Bold" Foreground="#003366" Margin="0,0,0,15"/>
+
+            <TextBlock Text="Introduza a sua Idade:" FontWeight="SemiBold"/>
+            <TextBox x:Name="txtIdade" Height="30" Margin="0,5,0,15" VerticalContentAlignment="Center" Padding="5"/>
+
+            <Button x:Name="btnClassificar" Content="Classificar Escalão" Height="35" Background="#003366" Foreground="White" FontWeight="Bold" Click="btnClassificar_Click"/>
+
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" CornerRadius="5" Margin="0,20,0,0" Padding="12">
+                <TextBlock x:Name="lblResultado" Text="Aguardando dados..." TextWrapping="Wrap" FontSize="13" Foreground="#333333"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

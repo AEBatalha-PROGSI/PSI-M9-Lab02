@@ -1,0 +1,33 @@
+﻿<Window x:Class="ValidadorDecisaoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lab Aulas 2-4: Decisões Lógicas e Condicionais em C#" Height="400" Width="480"
+        Background="#F4F6F9" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Avaliação de Aluno &amp; Categoria" FontSize="18" FontWeight="Bold" Foreground="#003366" Margin="0,0,0,15"/>
+
+            <!-- Campo Nota -->
+            <TextBlock Text="Introduza a Nota do Aluno (0 a 20):" FontWeight="SemiBold"/>
+            <TextBox x:Name="txtNota" Height="30" Margin="0,5,0,15" VerticalContentAlignment="Center" Padding="5"/>
+
+            <!-- Categoria ComboBox -->
+            <TextBlock Text="Selecione o Perfil do Aluno:" FontWeight="SemiBold"/>
+            <ComboBox x:Name="cmbPerfil" Height="30" Margin="0,5,0,20" VerticalContentAlignment="Center">
+                <ComboBoxItem Content="Regular" IsSelected="True"/>
+                <ComboBoxItem Content="Bolseiro"/>
+                <ComboBoxItem Content="Atleta de Alta Competição"/>
+                <ComboBoxItem Content="Mérito Académico"/>
+            </ComboBox>
+
+            <!-- Botão de Ação -->
+            <Button x:Name="btnAvaliar" Content="Avaliar Desempenho e Benefício" Height="35"
+                    Background="#003366" Foreground="White" FontWeight="Bold" Click="btnAvaliar_Click"/>
+
+            <!-- Resultado -->
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" CornerRadius="5" Margin="0,20,0,0" Padding="12">
+                <TextBlock x:Name="lblResultado" Text="Aguardando dados..." TextWrapping="Wrap" FontSize="13" Foreground="#333333"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
